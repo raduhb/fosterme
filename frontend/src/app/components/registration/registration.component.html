@@ -1,0 +1,31 @@
+<mat-toolbar>
+    <span>Create Account</span>
+</mat-toolbar>
+<mat-card class="my-card">
+    <mat-card-content>
+    <form class="my-form">
+        <mat-form-field class="full-width">
+            <mat-label>Name</mat-label>
+            <input  matInput  placeholder="Name"  name="name"  required>
+        </mat-form-field>
+        <mat-form-field class="full-width">
+            <mat-label>Username</mat-label>
+            <input  matInput  placeholder="Username"  name="username">
+        </mat-form-field>
+        <mat-form-field class="full-width">
+            <mat-label>Email</mat-label>
+            <input  matInput  placeholder="Email" name="email" required>
+        </mat-form-field>
+        <mat-form-field class="full-width">
+            <mat-label>Password</mat-label>
+            <input  matInput  placeholder="Password"  name="password" required>
+        </mat-form-field>
+        </form>
+    </mat-card-content>
+    <mat-card-actions>
+      <!-- Click function to refer to the Create Account function in register.component.ts -->
+      <a mat-button routerLink="/list">Submit</a>
+    </mat-card-actions>
+</mat-card>
+
+

@@ -1,0 +1,26 @@
+<mat-card class="my-card">
+    <mat-card-content>
+    <form class="my-form">
+        <mat-form-field class="full-width">
+            <mat-label>Type</mat-label>
+            <input  matInput  placeholder="Cat, Dog, etc."  name="name"  required>
+        </mat-form-field>
+        <mat-form-field class="full-width">
+            <mat-label>Race</mat-label>
+            <input  matInput  placeholder="Race"  name="username" required>
+        </mat-form-field>
+        <mat-form-field class="full-width">
+            <mat-label>Gender</mat-label>
+            <input  matInput  placeholder="Gender" name="email" required>
+        </mat-form-field>
+        <mat-form-field class="full-width">
+            <mat-label>Age</mat-label>
+            <input  matInput  placeholder="Aproximate age"  name="password" required>
+        </mat-form-field>
+        </form>
+    </mat-card-content>
+    <mat-card-actions>
+      <!-- Click function to refer to the addAnimal function in register.component.ts -->
+      <a mat-button routerLink="/list">Post</a>
+    </mat-card-actions>
+</mat-card>
